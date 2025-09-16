@@ -42,19 +42,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "Info@johnnyeliades.com",
-      action: "mailto:Info@johnnyeliades.com"
+      details: "info@johnnyeliades.com",
+      action: "mailto:info@johnnyeliades.com"
     },
     {
       icon: Phone,
       title: "Call Us",
       details: "+27 (0) 86 107 3282",
-      action: "tel:+27111234567"
+      action: "tel:+270861073282"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "46 Arbroath Road, Bedfordview",
+      details: "46 Arbroath Road, Bedfordview Johannesburg OR 166 Main Road,  Paarl Capetown OR 309 Stateway Welkom, Freestate",
       action: null
     },
     {
@@ -170,7 +170,7 @@ const Contact = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
                     >
                       <option value="">Select</option>
-                      <option value="september-2025">Power Up 365 - September Edition (17 Sept 2025)</option>
+                      <option value="september-2025">Power Up 365 - September Edition (23 September 2025)</option>
                      
                       <option value="general-inquiry">General Inquiry</option>
                     </select>

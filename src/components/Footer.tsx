@@ -141,14 +141,14 @@ const Footer = () => {
             
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © {currentYear} Developed by {' '}
-              <a
+              {/* <a
                 href="https://www.linkedin.com/in/emmanuel-kaome-0247b7224/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
-              >
-                Emmanuel Kaome
-              </a>
+              > */}
+                Definite Mperi
+              {/* </a> */}
             </div>
             
             <div className="flex space-x-6 text-sm">
