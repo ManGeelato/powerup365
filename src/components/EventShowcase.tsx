@@ -15,30 +15,30 @@ const EventShowcase = () => {
       image: "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       featured: true
     },
-    {
-      id: 2,
-      title: "Leadership Excellence Workshop",
-      date: "15 October 2025",
-      time: "19:00 - 22:00",
-      location: "Johannesburg CBD",
-      attendees: 100,
-      price: "R400",
-      description: "Develop your leadership skills while building valuable connections with fellow business leaders and entrepreneurs.",
-      image: "https://images.pexels.com/photos/1181772/pexels-photo-1181772.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      featured: false
-    },
-    {
-      id: 3,
-      title: "Innovation & Technology Summit",
-      date: "22 November 2025",
-      time: "17:30 - 20:30",
-      location: "Sandton Convention Centre",
-      attendees: 200,
-      price: "R500",
-      description: "Explore the latest in business technology and innovation while networking with industry pioneers and thought leaders.",
-      image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      featured: false
-    }
+    // {
+    //   id: 2,
+    //   title: "Leadership Excellence Workshop",
+    //   date: "15 October 2025",
+    //   time: "19:00 - 22:00",
+    //   location: "Johannesburg CBD",
+    //   attendees: 100,
+    //   price: "R400",
+    //   description: "Develop your leadership skills while building valuable connections with fellow business leaders and entrepreneurs.",
+    //   image: "https://images.pexels.com/photos/1181772/pexels-photo-1181772.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    //   featured: false
+    // },
+    // {
+    //   id: 3,
+    //   title: "Innovation & Technology Summit",
+    //   date: "22 November 2025",
+    //   time: "17:30 - 20:30",
+    //   location: "Sandton Convention Centre",
+    //   attendees: 200,
+    //   price: "R500",
+    //   description: "Explore the latest in business technology and innovation while networking with industry pioneers and thought leaders.",
+    //   image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    //   featured: false
+    // }
   ];
 
   const scrollToContact = () => {
