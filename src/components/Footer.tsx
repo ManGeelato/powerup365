@@ -13,7 +13,7 @@ const Footer = () => {
   ];
 
   const upcomingEvents = [
-    { date: 'Sept 17, 2025', name: 'Power Up 365 - September Edition', location: '46 Arbroath Road, Bedfordview' },
+    { date: 'Sept 25, 2025', name: 'Power Up 365 - September Edition', location: '166 Main Road,  Paarl Capetown' },
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -111,7 +111,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="mt-1 text-blue-400 flex-shrink-0" size={18} />
                 <div className="text-gray-300 text-sm">
-                  46 Arbroath Road, Bedfordview
+                  166 Main Road, Paarl, Capetown
                 </div>
               </div>
 

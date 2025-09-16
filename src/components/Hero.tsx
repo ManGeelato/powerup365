@@ -96,11 +96,11 @@ const Hero = () => {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex items-center text-blue-200">
                   <Calendar className="mr-2" size={20} />
-                  <span>17 September 2025</span>
+                  <span>23 September 2025</span>
                 </div>
                 <div className="flex items-center text-blue-200">
                   <MapPin className="mr-2" size={20} />
-                  <span>46 Arbroath Road, Bedfordview</span>
+                  <span>166 Main Road, Paarl, Capetown</span>
                 </div>
                 <div className="flex items-center text-blue-200">
                   <Users className="mr-2" size={20} />

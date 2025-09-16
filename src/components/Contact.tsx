@@ -22,7 +22,6 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
     console.log('Form submitted:', formData);
     setIsSubmitted(true);
     setTimeout(() => {
@@ -42,25 +41,29 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "info@johnnyeliades.com",
+      details: ["info@johnnyeliades.com"],
       action: "mailto:info@johnnyeliades.com"
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: "+27 (0) 86 107 3282",
+      details: ["+27 (0) 86 107 3282"],
       action: "tel:+270861073282"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "46 Arbroath Road, Bedfordview Johannesburg OR 166 Main Road,  Paarl Capetown OR 309 Stateway Welkom, Freestate",
+      details: [
+        "* 46 Arbroath Road Bedfordview, Johannesburg",
+        "* 166 Main Road Paarl, Capetown",
+        "* 309 Stateway Welkom, Freestate"
+      ],
       action: null
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: "Mon - Fri: 9:00 AM - 5:00 PM",
+      details: ["Mon - Fri: 9:00 AM - 5:00 PM"],
       action: null
     }
   ];
@@ -171,7 +174,6 @@ const Contact = () => {
                     >
                       <option value="">Select</option>
                       <option value="september-2025">Power Up 365 - September Edition (23 September 2025)</option>
-                     
                       <option value="general-inquiry">General Inquiry</option>
                     </select>
                   </div>
@@ -213,16 +215,19 @@ const Contact = () => {
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900 mb-1">{info.title}</h4>
-                    {info.action ? (
-                      <a 
-                        href={info.action}
-                        className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
-                      >
-                        {info.details}
-                      </a>
-                    ) : (
-                      <p className="text-gray-600">{info.details}</p>
-                    )}
+                    {info.details.map((line, idx) => (
+                      info.action && idx === 0 ? (
+                        <a 
+                          key={idx}
+                          href={info.action}
+                          className="block text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                        >
+                          {line}
+                        </a>
+                      ) : (
+                        <p key={idx} className="text-gray-600">{line}</p>
+                      )
+                    ))}
                   </div>
                 </div>
               </div>
