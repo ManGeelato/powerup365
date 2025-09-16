@@ -13,7 +13,7 @@ const Footer = () => {
   ];
 
   const upcomingEvents = [
-    { date: 'Sept 25, 2025', name: 'Power Up 365 - September Edition', location: '166 Main Road,  Paarl Capetown' },
+    { date: 'Sept 23, 2025', name: 'Power Up 365 - September Edition', location: '166 Main Road,  Paarl Capetown' },
   ];
 
   const scrollToSection = (sectionId: string) => {
