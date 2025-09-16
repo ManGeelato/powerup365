@@ -11,7 +11,7 @@ const EventShowcase = () => {
       location: "166 Main Road Paarl Capetown",
       attendees: 30,
       price: "R350",
-      description: "Join us for an morningof powerful networking, inspiring conversations, and meaningful connections that will elevate your business to new heights.",
+      description: "Join us for a morning of powerful networking, inspiring conversations, and meaningful connections that will elevate your business to new heights.",
       image: "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       featured: true
     },
